@@ -1,0 +1,127 @@
+body{
+    margin:0;
+    font-family: Sen, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+.top-menu {
+    background-color:#eb5757;
+}
+
+.top-menu > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-menu > div>nav>ul>li {
+    display: inline-block;
+    margin-right: 30px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.top-menu > div>nav>ul>li>a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.top-menu > div>nav>ul>li:hover{
+    background-color: black;
+}
+
+.cart {
+    padding: 7px 15px !important;
+    background-color: black;
+    position: relative;
+    margin-right: 9px !important;
+}
+
+.cart>a>{
+    line-height: 20px;
+}
+
+.cart>a>img{
+    width: 20px;
+    vertical-align: middle;
+}
+
+.badge{
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    font-size: 11px;
+    color: black;
+    text-align: center;
+    line-height: 18px;
+    vertical-align: middle;
+    border-radius: 50%;
+    font-weight: 700;
+    position: absolute;
+    top: -9px;
+    right: -9px;
+
+}
+
+
+
+
+.top-footer {
+    padding-top: 65px;
+    padding-bottom: 10px;
+    background-color: #222;
+}
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+a {
+    color: #eb5757;
+    text-decoration: underline;
+}
+.top-footer>div{
+    background-color: transparent;
+}
+.container{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.footer-bottom-wrapper>div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.small.top-footer-small {
+    font-size: 12px;
+}
+
+.small {
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.small.top-footer-small>a {
+    color: #eb5757;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.small.top-footer-small>a {
+    background-color: transparent;
+}
+
